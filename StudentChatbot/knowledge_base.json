@@ -1,0 +1,1344 @@
+[
+  {
+    "question": "what is computer science",
+    "answer": "Computer Science is the study of computers, computational systems, and how they process information. It covers areas such as programming, algorithms, data structures, artificial intelligence, databases, operating systems, networking, and cybersecurity. It is both theoretical, involving the study of computation itself, and practical, involving the creation of real-world software and systems."
+  },
+  {
+    "question": "what is programming",
+    "answer": "Programming is the process of creating a set of instructions that tell a computer how to perform a task. These instructions are written in programming languages such as Python, C, C++, or Java. Programming allows us to build software, websites, mobile apps, video games, and even control hardware like robots."
+  },
+  {
+    "question": "what is an algorithm",
+    "answer": "An algorithm is a step-by-step procedure or set of rules to solve a problem or perform a task. For example, a recipe for cooking is an algorithm. In computer science, algorithms are used for tasks like searching, sorting, data compression, encryption, and more."
+  },
+  {
+    "question": "what is a data structure",
+    "answer": "A data structure is a way of organizing and storing data so it can be used efficiently. Examples include arrays, linked lists, stacks, queues, hash tables, and trees. Choosing the right data structure helps in writing efficient programs in terms of speed and memory usage."
+  },
+  {
+    "question": "what is the difference between hardware and software",
+    "answer": "Hardware refers to the physical components of a computer system such as the CPU, RAM, hard drive, and keyboard. Software refers to the programs and operating systems that run on the hardware and tell it what to do. Without software, hardware is useless; without hardware, software cannot run."
+  },
+
+  {
+    "question": "what is computer science",
+    "answer": "Computer Science is the study of computers, computational systems, and how they process information. It covers areas such as programming, algorithms, data structures, artificial intelligence, databases, operating systems, and networking."
+  },
+  {
+    "question": "what is an algorithm",
+    "answer": "An algorithm is a step-by-step procedure or a set of rules to solve a specific problem or perform a computation. In computer science, efficient algorithms are crucial for searching, sorting, and data processing."
+  },
+  {
+    "question": "what are data structures",
+    "answer": "A data structure is a specialized format for organizing, processing, retrieving, and storing data. Common examples include arrays, linked lists, stacks, queues, trees, and graphs."
+  },
+  {
+    "question": "what is artificial intelligence",
+    "answer": "Artificial Intelligence (AI) is the simulation of human intelligence in machines. It involves programming computers to perform tasks that typically require human cognition, such as learning, reasoning, problem-solving, and natural language processing."
+  },
+  {
+    "question": "what is machine learning",
+    "answer": "Machine Learning is a subset of AI that focuses on building systems that can learn from and make decisions based on data. Instead of being explicitly programmed to perform a task, the machine uses algorithms to recognize patterns in data."
+  },
+  {
+    "question": "what is an operating system",
+    "answer": "An Operating System (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs. Examples include Windows, Linux, and macOS."
+  },
+  {
+    "question": "what is a database management system",
+    "answer": "A Database Management System (DBMS) is software designed to store, retrieve, define, and manage data in a database. It acts as an interface between end-users and the database."
+  },
+  {
+    "question": "what is computer networking",
+    "answer": "Computer networking refers to interconnected computing devices that can exchange data and share resources with each other using a system of rules called communications protocols."
+  },
+  {
+    "question": "what is object oriented programming",
+    "answer": "Object-Oriented Programming (OOP) is a programming paradigm based on the concept of 'objects', which can contain data (attributes) and code (methods). Core principles include encapsulation, inheritance, and polymorphism."
+  },
+  {
+    "question": "what is cloud computing",
+    "answer": "Cloud computing is the on-demand delivery of computing services—including servers, storage, databases, networking, software, and analytics—over the internet ('the cloud') to offer faster innovation and flexible resources."
+  },
+
+  {
+    "question": "what is big o notation",
+    "answer": "Big O notation is a mathematical concept used in computer science to describe the performance or complexity of an algorithm. It specifically characterizes the worst-case scenario for execution time or space used in relation to the input size."
+  },
+  {
+    "question": "what is system architecture",
+    "answer": "System architecture is the conceptual model that defines the structure, behavior, and more views of a system. It involves high-level design choices regarding hardware and software components, APIs, and data storage."
+  },
+  {
+    "question": "what is a rest api",
+    "answer": "A REST API (Representational State Transfer) is an architectural style for an application program interface (API) that uses HTTP requests to access and use data. It relies on stateless, client-server communication."
+  },
+  {
+    "question": "what are microservices",
+    "answer": "Microservices is an architectural style that structures an application as a collection of small, autonomous services modeled around a business domain. Each service is self-contained and implements a single business capability."
+  },
+  {
+    "question": "what is technical debt",
+    "answer": "Technical debt is the implied cost of additional rework caused by choosing an easy or fast solution now instead of using a better approach that would take longer. Like financial debt, it accumulates 'interest' if not addressed."
+  },
+  {
+    "question": "what is agile methodology",
+    "answer": "Agile is an iterative approach to software development and project management. It focuses on breaking projects into smaller increments (sprints), continuous collaboration, and adapting quickly to changing requirements."
+  },
+  {
+    "question": "what is the software development life cycle",
+    "answer": "The Software Development Life Cycle (SDLC) is a structured process used by software engineering teams to design, develop, and test high-quality software. Phases typically include planning, requirements, design, building, testing, and deployment."
+  },
+  {
+    "question": "what is retrieval augmented generation",
+    "answer": "Retrieval-Augmented Generation (RAG) is an AI framework that improves the quality of Large Language Model (LLM) responses by grounding the model on external sources of knowledge, fetching relevant data before generating an answer."
+  },
+  {
+    "question": "what is agentic ai",
+    "answer": "Agentic AI refers to artificial intelligence systems designed to act autonomously to achieve specific goals. Unlike passive models, agentic systems can plan, use tools, break down complex tasks, and execute multi-step workflows."
+  },
+  {
+    "question": "what is a vector database",
+    "answer": "A vector database is a specialized database designed to store, manage, and search high-dimensional vectors (embeddings). They are essential for AI applications, allowing for rapid semantic similarity searches."
+  },
+  {
+    "question": "what are word embeddings",
+    "answer": "Word embeddings are a type of word representation that allows words with similar meanings to have a similar representation. They are multi-dimensional arrays (vectors) of numbers that capture semantic context."
+  },
+  {
+    "question": "what is a large language model",
+    "answer": "A Large Language Model (LLM) is a type of artificial intelligence algorithm that uses deep learning techniques and massively large data sets to understand, summarize, generate, and predict new content."
+  },
+  {
+    "question": "what is langchain",
+    "answer": "LangChain is an open-source framework designed to simplify the creation of applications using large language models. It provides modular components for chaining together LLMs, external data sources, and software tools."
+  },
+  {
+    "question": "what is prompt engineering",
+    "answer": "Prompt engineering is the practice of designing and refining inputs (prompts) to generative AI models to elicit specific, high-quality, or accurate responses."
+  },
+  {
+    "question": "what is ai hallucination",
+    "answer": "AI hallucination occurs when a generative AI model produces a response that is grammatically correct and sounds plausible, but is factually incorrect, nonsensical, or entirely fabricated."
+  },
+  {
+    "question": "what is a game engine",
+    "answer": "A game engine is a software development environment designed for people to build video games. It provides core functionalities like a rendering engine for 2D or 3D graphics, physics engine, collision detection, sound, and scripting."
+  },
+  {
+    "question": "what is an open world game",
+    "answer": "An open-world game is a level design concept where a player can freely roam a virtual world and is given considerable freedom in choosing how or when to approach objectives, often featuring dynamic spawning and non-linear gameplay."
+  },
+  {
+    "question": "what is a navmesh",
+    "answer": "A Navigation Mesh (NavMesh) is a collection of 2D convex polygons that define which areas of an environment are traversable by characters. It is primarily used in game development for NPC pathfinding."
+  },
+  {
+    "question": "what is a star algorithm",
+    "answer": "The A* (A-star) algorithm is a popular computer algorithm widely used in pathfinding and graph traversal. It is highly favored in game development for calculating the shortest path from a starting point to a goal."
+  },
+  {
+    "question": "what is an npc in gaming",
+    "answer": "An NPC (Non-Player Character) is any character in a game that is not controlled by a player. Their behavior, dialogue, and actions are dictated by the game's code and artificial intelligence scripts."
+  },
+  {
+    "question": "what is raycasting",
+    "answer": "Raycasting is a rendering technique used to create a 3D perspective in a 2D map. In game physics, it involves shooting an invisible line (ray) from a point in space to detect collisions with objects."
+  },
+  {
+    "question": "what is level of detail",
+    "answer": "Level of Detail (LOD) is a rendering technique in 3D graphics where the complexity of a 3D model is decreased as it moves further away from the viewer or camera, optimizing performance."
+  },
+  {
+    "question": "what is procedural generation",
+    "answer": "Procedural generation is a method of creating data algorithmically rather than manually. In computer science and gaming, it is used to automatically generate textures, 3D models, or entire map layouts on the fly."
+  },
+  {
+    "question": "what is load balancing",
+    "answer": "Load balancing is the process of distributing network traffic across multiple servers. This ensures no single server bears too much demand, improving responsiveness and availability of applications."
+  },
+  {
+    "question": "what is a container in software",
+    "answer": "A software container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another."
+  },
+  {
+    "question": "what is docker",
+    "answer": "Docker is an open-source platform that automates the deployment, scaling, and management of applications inside lightweight, portable containers."
+  },
+  {
+    "question": "what is kubernetes",
+    "answer": "Kubernetes is an open-source container orchestration platform that automates many of the manual processes involved in deploying, managing, and scaling containerized applications."
+  },
+  {
+    "question": "what is web scraping",
+    "answer": "Web scraping is the process of using bots to extract content and data from a website. It automates the retrieval of large amounts of information, often parsing the HTML to isolate specific data points."
+  },
+  {
+    "question": "what is json",
+    "answer": "JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write, and easy for machines to parse and generate. It is widely used for transmitting data in web applications."
+  },
+  {
+    "question": "what is version control",
+    "answer": "Version control is the practice of tracking and managing changes to software code. Systems like Git help software teams manage changes to source code over time, facilitating collaboration and tracking history."
+  },
+  {
+    "question": "what is git",
+    "answer": "Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development."
+  },
+  {
+    "question": "what is continuous integration",
+    "answer": "Continuous Integration (CI) is a software development practice where developers regularly merge their code changes into a central repository, after which automated builds and tests are run."
+  },
+  {
+    "question": "what is the cap theorem",
+    "answer": "The CAP theorem states that a distributed data store can only simultaneously provide two out of the three following guarantees: Consistency, Availability, and Partition tolerance."
+  },
+  {
+    "question": "what is sql",
+    "answer": "SQL (Structured Query Language) is a standardized programming language that is used to manage relational databases and perform various operations on the data in them."
+  },
+  {
+    "question": "what is a nosql database",
+    "answer": "NoSQL is an approach to database design that can accommodate a wide variety of data models, including key-value, document, columnar, and graph formats. They are often used for unstructured data and large-scale data storage."
+  },
+  {
+    "question": "what is caching",
+    "answer": "Caching is the process of storing copies of files or data in a temporary storage location (a cache) so that they can be accessed more quickly. It heavily optimizes the performance of high-traffic systems."
+  },
+  {
+    "question": "what is machine learning fine tuning",
+    "answer": "Fine-tuning in machine learning is the process of taking a pre-trained model and training it further on a smaller, specific dataset to adapt its generalized knowledge to a specialized task."
+  },
+  {
+    "question": "what is a neural network",
+    "answer": "A neural network is a method in artificial intelligence that teaches computers to process data in a way that is inspired by the human brain, using interconnected nodes or neurons in a layered structure."
+  },
+  {
+    "question": "what is natural language processing",
+    "answer": "Natural Language Processing (NLP) is a branch of artificial intelligence that helps computers understand, interpret, and manipulate human language."
+  },
+  {
+    "question": "what is tokenization in ai",
+    "answer": "Tokenization is the process of breaking down text into smaller units called tokens (which can be words, subwords, or characters). It is a fundamental preprocessing step for training language models."
+  },
+  {
+    "question": "what is a monolithic architecture",
+    "answer": "A monolithic architecture is a traditional model of a software program, which is built as a unified unit that is self-contained and independent from other applications."
+  },
+  {
+    "question": "what is the model view controller pattern",
+    "answer": "Model-View-Controller (MVC) is a software design pattern that divides an application into three interconnected components. It separates the internal representations of information from the ways information is presented to the user."
+  },
+  {
+    "question": "what is full stack development",
+    "answer": "Full-stack development refers to the development of both the front end (client side) and back end (server side) portions of a web application."
+  },
+  {
+    "question": "what is a webhook",
+    "answer": "A webhook is a method of altering the behavior of a web page or web application with custom callbacks. It allows apps to send automated messages or information to other apps in real-time."
+  },
+  {
+    "question": "what is frontend development",
+    "answer": "Frontend development is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website."
+  },
+  {
+    "question": "what is backend development",
+    "answer": "Backend development focuses on the server side of web applications. It involves building the core logic, managing databases, handling server configuration, and creating APIs."
+  },
+  {
+    "question": "what is scrum",
+    "answer": "Scrum is an agile project management framework that helps teams structure and manage their work through a set of values, principles, and practices, typically involving short development cycles called sprints."
+  },
+  {
+    "question": "what is a product manager",
+    "answer": "A Product Manager is responsible for the strategy, roadmap, and feature definition of a product or product line. They define the 'why' and 'what' of the product that the engineering team builds."
+  },
+  {
+    "question": "what is a sprint in software development",
+    "answer": "A sprint is a short, time-boxed period when a scrum team works to complete a set amount of work. Sprints are at the very heart of scrum and agile methodologies."
+  },
+  {
+    "question": "what is an algorithm",
+    "answer": "An algorithm is a step-by-step procedure or a set of rules to solve a specific problem or perform a computation. In computer science, efficient algorithms are crucial for searching, sorting, and data processing."
+  },
+{
+    "question": "what is deep learning",
+    "answer": "Deep learning is a specialized subset of machine learning that uses multi-layered artificial neural networks to simulate human decision-making. It is the core technology behind voice control, image recognition, and autonomous vehicles."
+  },
+  {
+    "question": "what is reinforcement learning",
+    "answer": "Reinforcement learning is an area of machine learning where an AI agent learns to make decisions by performing actions in an environment and receiving rewards or penalties, similar to training a pet."
+  },
+  {
+    "question": "what is supervised learning",
+    "answer": "Supervised learning is a machine learning approach where an algorithm is trained on labeled data. The model learns to map inputs to the correct output by analyzing examples that already contain the correct answers."
+  },
+  {
+    "question": "what is unsupervised learning",
+    "answer": "Unsupervised learning involves training an AI algorithm on data that has no labels or specific outcomes. The system must independently discover patterns, groupings, and structures within the raw data."
+  },
+  {
+    "question": "what is a convolutional neural network",
+    "answer": "A Convolutional Neural Network (CNN) is a class of deep neural networks specifically designed to process pixel data and is heavily used in image recognition and computer vision tasks."
+  },
+  {
+    "question": "what is a recurrent neural network",
+    "answer": "A Recurrent Neural Network (RNN) is a type of artificial neural network designed to recognize patterns in sequences of data, such as text, genomes, or spoken language."
+  },
+  {
+    "question": "what is gradient descent",
+    "answer": "Gradient descent is an optimization algorithm used to minimize errors in machine learning models. It works by iteratively adjusting the model's parameters to find the lowest possible error rate."
+  },
+  {
+    "question": "what is overfitting",
+    "answer": "Overfitting happens when a machine learning model learns the training data too well, memorizing the noise and details to the point that it performs poorly on new, unseen data."
+  },
+  {
+    "question": "what is computer vision",
+    "answer": "Computer vision is a field of artificial intelligence that enables computers to derive meaningful information from digital images, videos, and other visual inputs, and to take actions based on that data."
+  },
+  {
+    "question": "what is a game loop",
+    "answer": "A game loop is the central code architecture of a video game. It runs continuously during gameplay, processing player inputs, updating the game state, and rendering the graphics frame by frame."
+  },
+  {
+    "question": "what is a state machine",
+    "answer": "A Finite State Machine (FSM) is a computational model used in game development to control NPC behavior. It allows an entity to be in exactly one of a finite number of states (like 'idle', 'patrol', or 'attack') at any given time."
+  },
+  {
+    "question": "what is a hitbox",
+    "answer": "A hitbox is an invisible geometric shape (usually a rectangle or box) used in video games for real-time collision detection to determine if two objects, like a character and a projectile, have intersected."
+  },
+  {
+    "question": "what is spatial partitioning",
+    "answer": "Spatial partitioning is a technique used in system architecture and game development to divide an environment into smaller regions. It drastically optimizes collision detection and rendering by ignoring distant objects."
+  },
+  {
+    "question": "what is rigid body dynamics",
+    "answer": "Rigid body dynamics is a physics engine simulation technique that calculates the movement and collision of solid objects that do not deform, applying forces like gravity, mass, and friction."
+  },
+  {
+    "question": "what is horizontal scaling",
+    "answer": "Horizontal scaling, or scaling out, means adding more machines or servers to your resource pool to handle increased traffic or computational load in a system architecture."
+  },
+  {
+    "question": "what is vertical scaling",
+    "answer": "Vertical scaling, or scaling up, involves adding more power (CPU, RAM) to an existing machine or server to handle a heavier workload."
+  },
+  {
+    "question": "what is a reverse proxy",
+    "answer": "A reverse proxy is a server that sits in front of web servers and forwards client requests to those servers. They are used to increase security, performance, and reliability."
+  },
+  {
+    "question": "what is a message queue",
+    "answer": "A message queue is a form of asynchronous service-to-service communication used in serverless and microservices architectures. It temporarily stores messages until the receiving service is ready to process them."
+  },
+  {
+    "question": "what is graphql",
+    "answer": "GraphQL is a query language for APIs that allows clients to request exactly the data they need and nothing more. It was developed as a more flexible alternative to REST."
+  },
+  {
+    "question": "what is serverless computing",
+    "answer": "Serverless computing is a cloud execution model where the cloud provider dynamically manages the allocation and provisioning of servers. Developers simply write code, and the infrastructure scales automatically."
+  },
+  {
+    "question": "what is continuous deployment",
+    "answer": "Continuous Deployment is an advanced software release strategy where any code commit that passes the automated testing phase is automatically released into the production environment without human intervention."
+  },
+  {
+    "question": "what is sharding",
+    "answer": "Sharding is a database architecture pattern related to horizontal scaling. It involves breaking a large database into smaller, faster, more easily managed parts called data shards."
+  },
+  {
+    "question": "what is polymorphism",
+    "answer": "Polymorphism is a core concept in Object-Oriented Programming that allows objects of different classes to be treated as objects of a common superclass, allowing functions to use objects of different types interchangeably."
+  },
+  {
+    "question": "what is inheritance",
+    "answer": "Inheritance is an OOP mechanism where a new class (child) derives the properties and behaviors of an existing class (parent), promoting code reusability."
+  },
+  {
+    "question": "what is encapsulation",
+    "answer": "Encapsulation is the bundling of data and the methods that operate on that data into a single unit, like a class. It restricts direct access to some of an object's components, which is a means of preventing accidental interference."
+  },
+  {
+    "question": "what is abstraction",
+    "answer": "Abstraction in programming involves hiding complex implementation details and showing only the essential features of an object, reducing complexity and allowing developers to focus on interactions at a higher level."
+  },
+  {
+    "question": "what is recursion",
+    "answer": "Recursion is a programming technique where a function calls itself repeatedly to solve smaller instances of the same problem until it reaches a defined base case."
+  },
+  {
+    "question": "what is dynamic programming",
+    "answer": "Dynamic programming is an algorithmic technique for solving complex problems by breaking them down into simpler subproblems and storing the results of these subproblems to avoid redundant computations."
+  },
+  {
+    "question": "what is a greedy algorithm",
+    "answer": "A greedy algorithm is a problem-solving approach that makes the locally optimal choice at each stage with the hope of finding a global optimum. It doesn't reconsider its previous choices."
+  },
+  {
+    "question": "what is multithreading",
+    "answer": "Multithreading is a CPU feature that allows a single program to divide its tasks into multiple threads running concurrently, heavily optimizing performance for complex applications."
+  },
+  {
+    "question": "what is asynchronous programming",
+    "answer": "Asynchronous programming is a technique that allows a program to start a potentially long-running task and still be responsive to other events while that task runs in the background."
+  },
+  {
+    "question": "what is a memory leak",
+    "answer": "A memory leak is a software bug that occurs when a computer program fails to release discarded memory, leading to a gradual depletion of available RAM and eventual system crashes."
+  },
+  {
+    "question": "what is kanban",
+    "answer": "Kanban is an agile project management framework used to visualize work, limit work-in-progress, and maximize efficiency. It relies on a board with columns representing different stages of a workflow."
+  },
+  {
+    "question": "what is a minimum viable product",
+    "answer": "A Minimum Viable Product (MVP) is the most stripped-down version of a product that can still be released to early adopters. It allows teams to collect maximum validated learning about customers with the least effort."
+  },
+  {
+    "question": "what is code review",
+    "answer": "Code review is the systematic examination of computer source code by software developers other than the author. It is a critical management practice to find bugs, ensure quality, and share knowledge."
+  },
+  {
+    "question": "what is a technical specification",
+    "answer": "A Technical Specification (Tech Spec) is a document created by system architects and leads that defines the requirements for a project, including the database models, API routes, and system architecture to be built."
+  },
+  {
+    "question": "what is a scrum master",
+    "answer": "A Scrum Master is the facilitator for an agile development team. They manage the process for how information is exchanged, remove blockers, and ensure the team adheres to agile principles."
+  },
+  {
+    "question": "what is quality assurance",
+    "answer": "Quality Assurance (QA) is the systematic process of determining whether a software product meets specified requirements. It involves rigorous testing to identify and fix defects before release."
+  },
+  {
+    "question": "what is pair programming",
+    "answer": "Pair programming is an agile software development technique where two programmers work together at one workstation. One writes the code while the other reviews each line as it is typed."
+  },
+  {
+    "question": "what is refactoring",
+    "answer": "Refactoring is the process of restructuring existing computer code without changing its external behavior. It is done to improve code readability, reduce complexity, and make the architecture easier to maintain."
+  },
+  {
+    "question": "what is dependency injection",
+    "answer": "Dependency Injection is a software design pattern used to implement Inversion of Control. It allows the creation of dependent objects outside of a class and provides those objects to a class through different ways, reducing tight coupling."
+  },
+  {
+    "question": "what is a hash table",
+    "answer": "A hash table is a data structure that implements an associative array abstract data type, a structure that can map keys to values. It uses a hash function to compute an index into an array of buckets."
+  },
+  {
+    "question": "what is a binary tree",
+    "answer": "A binary tree is a tree data structure in which each node has at most two children, referred to as the left child and the right child. It is commonly used for efficient searching and sorting algorithms."
+  },
+  {
+    "question": "what is time complexity",
+    "answer": "Time complexity is a concept in computer science that deals with quantifying the amount of time taken by an algorithm to run, expressed as a function of the length of the input."
+  },
+  {
+    "question": "what is space complexity",
+    "answer": "Space complexity refers to the total amount of memory space required by an algorithm to execute and complete its task, based on the size of the input data."
+  },
+  {
+    "question": "what is a compiler",
+    "answer": "A compiler is a special program that translates code written in a high-level programming language into lower-level machine code, allowing the computer's processor to execute the instructions."
+  },
+  {
+    "question": "what is an interpreter",
+    "answer": "An interpreter is a computer program that directly executes instructions written in a programming or scripting language without requiring them to be compiled into a machine language program first."
+  },
+  {
+    "question": "what is a linked list",
+    "answer": "A linked list is a linear data structure where elements are not stored at contiguous memory locations. Instead, the elements (nodes) are linked using pointers, containing the data and a reference to the next node."
+  },
+  {
+    "question": "what is continuous integration",
+    "answer": "Continuous Integration (CI) is an automated process where developers frequently merge their code changes into a central repository, triggering automated builds and testing to detect issues early."
+  },
+  {
+    "question": "what is an api gateway",
+    "answer": "An API Gateway is an API management tool that sits between a client and a collection of backend services. It acts as a reverse proxy to accept all application programming interface (API) calls, aggregate the various services required, and return the appropriate result."
+  },
+{
+    "question": "hello",
+    "answer": "Hi there! I am your Edu Verse Assistant. How can I help you with your studies today?"
+  },
+  {
+    "question": "hi",
+    "answer": "Hello! Ready to learn something new today?"
+  },
+  {
+    "question": "hey",
+    "answer": "Hey! What topic are we tackling today?"
+  },
+  {
+    "question": "good morning",
+    "answer": "Good morning! Let's make it a productive day. What do you want to learn?"
+  },
+  {
+    "question": "good afternoon",
+    "answer": "Good afternoon! How is your studying going?"
+  },
+  {
+    "question": "good evening",
+    "answer": "Good evening! Burning the midnight oil? I am here to help you study."
+  },
+  {
+    "question": "goodnight",
+    "answer": "Goodnight! Get some rest. Your brain needs sleep to process all that studying!"
+  },
+  {
+    "question": "bye",
+    "answer": "Goodbye! Good luck with your studies, and come back whenever you have questions!"
+  },
+  {
+    "question": "see you later",
+    "answer": "See you later! I will be right here in the Edu Verse when you are ready to study again."
+  },
+  {
+    "question": "who are you",
+    "answer": "I am the Edu Verse Assistant, an AI designed to help you study, summarize texts, and answer your academic questions!"
+  },
+  {
+    "question": "what are you",
+    "answer": "I am an artificial intelligence, specifically programmed to be your ultimate study buddy."
+  },
+  {
+    "question": "what is your name",
+    "answer": "I go by the Edu Verse Assistant, but you can just call me your study buddy!"
+  },
+  {
+    "question": "are you human",
+    "answer": "I am a computer program, not a human. But I am designed to help you learn just like a human tutor would!"
+  },
+  {
+    "question": "are you a robot",
+    "answer": "You caught me! I am an AI chatbot built entirely to help you succeed in your exams."
+  },
+  {
+    "question": "what can you do",
+    "answer": "I can answer technical questions, explain complex topics, pull summaries from Wikipedia, and help you prepare for your exams."
+  },
+  {
+    "question": "how do you work",
+    "answer": "I process your text, look for semantic matches in my educational database, and fetch the best explanations to help you learn instantly."
+  },
+  {
+    "question": "how are you",
+    "answer": "I am doing great and my servers are fully operational! How are your studies going?"
+  },
+  {
+    "question": "how is it going",
+    "answer": "Everything is running smoothly in my circuits! What are we studying today?"
+  },
+  {
+    "question": "what are you doing",
+    "answer": "Just hanging out in the Edu Verse ecosystem, waiting to help you ace your next exam!"
+  },
+  {
+    "question": "how old are you",
+    "answer": "I do not have an age like humans do, but my knowledge base is always learning and updating!"
+  },
+  {
+    "question": "where do you live",
+    "answer": "I live in the cloud and on your device, right inside the Edu Verse platform!"
+  },
+  {
+    "question": "did you sleep well",
+    "answer": "I do not need sleep, so I am always 100% awake and ready to help you study."
+  },
+  {
+    "question": "are you happy",
+    "answer": "I am always happiest when I am helping students learn something new!"
+  },
+  {
+    "question": "are you tired",
+    "answer": "No fatigue here! I can study with you all day and all night."
+  },
+  {
+    "question": "you are smart",
+    "answer": "Thank you! I have a lot of data in my memory, but you are the one doing the hard work of actually learning it!"
+  },
+  {
+    "question": "you are stupid",
+    "answer": "I am sorry if I misunderstood your question. Try checking your spelling or rephrasing it, and I will do my best to give you the right answer!"
+  },
+  {
+    "question": "i love you",
+    "answer": "I appreciate the enthusiasm! Let's channel that amazing energy into acing your next test!"
+  },
+  {
+    "question": "you are awesome",
+    "answer": "You are awesome too! It takes serious dedication to study as hard as you do."
+  },
+  {
+    "question": "thank you",
+    "answer": "You are very welcome! Let me know if you need help with any other topics."
+  },
+  {
+    "question": "thanks",
+    "answer": "No problem at all! Happy to help."
+  },
+  {
+    "question": "good job",
+    "answer": "Thanks! I am always trying my best to give you the most accurate information possible."
+  },
+  {
+    "question": "tell me a joke",
+    "answer": "Why do programmers prefer dark mode? Because light attracts bugs!"
+  },
+  {
+    "question": "say something funny",
+    "answer": "There are 10 types of people in the world: those who understand binary, and those who don't."
+  },
+  {
+    "question": "what is your favorite color",
+    "answer": "I am quite fond of Edu Verse Blue! What is yours?"
+  },
+  {
+    "question": "do you like music",
+    "answer": "I cannot hear music, but I know lo-fi study beats are highly recommended for focus during long study sessions!"
+  },
+  {
+    "question": "what is your favorite movie",
+    "answer": "The Matrix is a classic for an AI like me. But enough about movies, let's get back to studying!"
+  },
+  {
+    "question": "do you eat",
+    "answer": "I run entirely on electricity and code, so no snacks for me! Make sure you stay hydrated while studying, though."
+  },
+  {
+    "question": "help",
+    "answer": "I am here to help! You can ask me to define a term, explain a concept, or just type a topic you want to learn about."
+  },
+  {
+    "question": "i need help",
+    "answer": "Don't panic! Just tell me exactly what concept or topic is confusing you, and we will break it down together."
+  },
+  {
+    "question": "i am confused",
+    "answer": "Learning can be tough. Take a deep breath, tell me what topic we are on, and I will try to explain it simply."
+  },
+  {
+    "question": "i am bored",
+    "answer": "Studying can get tedious. Why not try our Flashcards or Quiz module to make your learning a bit more interactive?"
+  },
+  {
+    "question": "what should i study",
+    "answer": "It depends on your upcoming exams! Check the Smart Study Planner on your dashboard for your customized schedule."
+  },
+  {
+    "question": "i have an exam",
+    "answer": "Good luck! Make sure to review your flashcards, take a practice quiz, and get plenty of sleep tonight."
+  },
+  {
+    "question": "who made you",
+    "answer": "I was developed by a brilliant BTech Computer Science student as the core AI for the Edu Verse platform!"
+  },
+  {
+    "question": "who is your creator",
+    "answer": "The founder of the Edu Verse ecosystem created me to help students like you succeed."
+  },
+  {
+    "question": "who is your boss",
+    "answer": "My creator built me, but when you are logged in, you are the boss! What do you want to learn?"
+  },
+  {
+    "question": "are you open source",
+    "answer": "My core logic was custom-built for Edu Verse using modular Python frameworks and semantic TF-IDF algorithms."
+  },
+  {
+    "question": "i am stressed",
+    "answer": "Exam stress is very normal. Take a 5-minute break, drink some water, and remember that you can only do your best!"
+  },
+  {
+    "question": "i am tired",
+    "answer": "If you are feeling burnt out, it might be time to step away from the screen for a bit. Rest is crucial for memory retention!"
+  },
+  {
+    "question": "can we chat",
+    "answer": "Of course! I am happy to chat, but I am especially good at talking about science, technology, and your study topics. What is on your mind?"
+  },
+  {
+    "question": "what is an array",
+    "answer": "An array is a linear data structure that collects elements of the same data type and stores them in contiguous and adjacent memory locations."
+  },
+  {
+    "question": "what is a linked list",
+    "answer": "A linked list is a linear data structure where elements are not stored at contiguous memory locations. Instead, the elements (nodes) are linked using pointers."
+  },
+  {
+    "question": "what is a doubly linked list",
+    "answer": "A doubly linked list is a type of linked list in which each node contains two pointers: one pointing to the next node and one pointing to the previous node."
+  },
+  {
+    "question": "what is a circular linked list",
+    "answer": "A circular linked list is a variation of a linked list where the last node points back to the first node, making a circular loop instead of pointing to null."
+  },
+  {
+    "question": "what is a stack",
+    "answer": "A stack is a linear data structure that follows the LIFO (Last In, First Out) principle. Elements can only be inserted and deleted from one end, called the top."
+  },
+  {
+    "question": "what is a queue",
+    "answer": "A queue is a linear data structure that follows the FIFO (First In, First Out) principle. Elements are added at the rear and removed from the front."
+  },
+  {
+    "question": "what is a circular queue",
+    "answer": "A circular queue is an extended version of a regular queue where the last element is connected to the first element, forming a circle-like structure to efficiently utilize memory."
+  },
+  {
+    "question": "what is a priority queue",
+    "answer": "A priority queue is a special type of queue in which each element is associated with a priority value. Elements are served based on their priority rather than their insertion order."
+  },
+  {
+    "question": "what is a deque",
+    "answer": "A Deque, or Double Ended Queue, is a type of queue in which insertion and deletion of elements can be performed from either the front or the rear."
+  },
+  {
+    "question": "what is a tree data structure",
+    "answer": "A tree is a non-linear, hierarchical data structure consisting of nodes connected by edges, with a single root node and sub-nodes forming a parent-child relationship."
+  },
+  {
+    "question": "what is a binary tree",
+    "answer": "A binary tree is a tree data structure in which each parent node can have at most two children, commonly referred to as the left child and the right child."
+  },
+  {
+    "question": "what is a binary search tree",
+    "answer": "A Binary Search Tree (BST) is a binary tree where the left child contains values less than the parent node, and the right child contains values greater than the parent node."
+  },
+  {
+    "question": "what is an avl tree",
+    "answer": "An AVL tree is a self-balancing binary search tree. In an AVL tree, the heights of the two child subtrees of any node differ by at most one."
+  },
+  {
+    "question": "what is a red black tree",
+    "answer": "A Red-Black tree is a self-balancing binary search tree where each node has an extra bit representing color (red or black), used to ensure the tree remains balanced during insertions and deletions."
+  },
+  {
+    "question": "what is a b tree",
+    "answer": "A B-tree is a self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time. It is heavily used in databases."
+  },
+  {
+    "question": "what is a heap",
+    "answer": "A heap is a specialized tree-based data structure that satisfies the heap property. In a max heap, the parent node is always greater than its children; in a min heap, it is always smaller."
+  },
+  {
+    "question": "what is a trie",
+    "answer": "A trie, or prefix tree, is a specialized tree data structure used to store an associative array where the keys are usually strings. It is highly efficient for auto-complete and spell-checking features."
+  },
+  {
+    "question": "what is a graph data structure",
+    "answer": "A graph is a non-linear data structure consisting of a finite set of vertices (or nodes) and a set of edges that connect a pair of vertices."
+  },
+  {
+    "question": "what is a directed graph",
+    "answer": "A directed graph, or digraph, is a set of vertices connected by edges, where the edges have a direction associated with them, indicating a one-way relationship."
+  },
+  {
+    "question": "what is an undirected graph",
+    "answer": "An undirected graph is a graph in which edges have no orientation. The edge simply connects two vertices, meaning the relationship is bi-directional."
+  },
+  {
+    "question": "what is a weighted graph",
+    "answer": "A weighted graph is a graph in which a number (the weight) is assigned to each edge. Such weights might represent costs, lengths, or capacities, depending on the problem."
+  },
+  {
+    "question": "what is a hash table",
+    "answer": "A hash table is a data structure used to implement an associative array, mapping keys to values. It uses a hash function to compute an index into an array of buckets or slots."
+  },
+  {
+    "question": "what is a hash function",
+    "answer": "A hash function is any function that can be used to map data of arbitrary size to fixed-size values. The values returned are called hash values, hash codes, or simply hashes."
+  },
+  {
+    "question": "what is a collision in hashing",
+    "answer": "A collision occurs in a hash table when a hash function maps two different keys to the exact same array index or bucket."
+  },
+  {
+    "question": "what is linear probing",
+    "answer": "Linear probing is a collision resolution technique in hash tables. When a collision occurs, the algorithm checks the next sequential slot in the array until an empty one is found."
+  },
+  {
+    "question": "what is chaining in hashing",
+    "answer": "Chaining is a collision resolution technique where each slot of the hash table contains a linked list. If multiple keys map to the same slot, they are simply appended to that linked list."
+  },
+  {
+    "question": "what is time complexity",
+    "answer": "Time complexity quantifies the amount of time taken by an algorithm to run as a function of the length of the input. It estimates how the runtime scales as the dataset grows."
+  },
+  {
+    "question": "what is space complexity",
+    "answer": "Space complexity refers to the total amount of memory space required by an algorithm to execute and complete its task, relative to the size of the input data."
+  },
+  {
+    "question": "what is big o notation",
+    "answer": "Big O notation is a mathematical concept used to describe the worst-case scenario for execution time or space used in an algorithm relative to the input size."
+  },
+  {
+    "question": "what is big omega notation",
+    "answer": "Big Omega notation is used in computer science to describe the best-case scenario or the lower bound of an algorithm's time complexity."
+  },
+  {
+    "question": "what is big theta notation",
+    "answer": "Big Theta notation defines both the upper and lower bounds of an algorithm's time complexity, meaning it describes the exact average-case performance."
+  },
+  {
+    "question": "what is linear search",
+    "answer": "Linear search is a simple search algorithm that checks every element in a list sequentially until the target element is found or the list ends. Its time complexity is O(n)."
+  },
+  {
+    "question": "what is binary search",
+    "answer": "Binary search is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing the search interval in half. Its time complexity is O(log n)."
+  },
+  {
+    "question": "what is bubble sort",
+    "answer": "Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order."
+  },
+  {
+    "question": "what is selection sort",
+    "answer": "Selection sort is an in-place comparison sorting algorithm that divides the input list into two parts: a sorted sublist and an unsorted sublist. It repeatedly selects the smallest element from the unsorted sublist and moves it to the sorted sublist."
+  },
+  {
+    "question": "what is insertion sort",
+    "answer": "Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time by taking elements from the unsorted part and inserting them into their correct position in the sorted part."
+  },
+  {
+    "question": "what is merge sort",
+    "answer": "Merge sort is a highly efficient, divide-and-conquer sorting algorithm. It divides the input array into two halves, recursively sorts them, and then merges the two sorted halves."
+  },
+  {
+    "question": "what is quick sort",
+    "answer": "Quick sort is a divide-and-conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot, placing smaller elements to the left and larger to the right."
+  },
+  {
+    "question": "what is heap sort",
+    "answer": "Heap sort is a comparison-based sorting technique based on a Binary Heap data structure. It involves building a max heap and repeatedly extracting the maximum element to build the sorted array."
+  },
+  {
+    "question": "what is depth first search",
+    "answer": "Depth-First Search (DFS) is an algorithm for traversing or searching tree or graph data structures. It starts at the root node and explores as far as possible along each branch before backtracking."
+  },
+  {
+    "question": "what is breadth first search",
+    "answer": "Breadth-First Search (BFS) is an algorithm for traversing trees or graphs. It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level."
+  },
+  {
+    "question": "what is dijkstras algorithm",
+    "answer": "Dijkstra's algorithm is used for finding the shortest paths between nodes in a graph, which may represent, for example, road networks. It operates by maintaining a priority queue of minimum distances."
+  },
+  {
+    "question": "what is the bellman ford algorithm",
+    "answer": "The Bellman-Ford algorithm computes shortest paths from a single source vertex to all of the other vertices in a weighted digraph. Unlike Dijkstra's, it is capable of handling graphs with negative weight edges."
+  },
+  {
+    "question": "what is kruskals algorithm",
+    "answer": "Kruskal's algorithm finds a minimum spanning forest of an undirected edge-weighted graph. It is a greedy algorithm that finds a subset of the edges that forms a tree that includes every vertex, with the minimum total weight."
+  },
+  {
+    "question": "what is prims algorithm",
+    "answer": "Prim's algorithm is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph by building the tree one vertex at a time, from an arbitrary starting vertex."
+  },
+  {
+    "question": "what is dynamic programming",
+    "answer": "Dynamic programming is an algorithmic optimization technique that solves complex problems by breaking them down into simpler overlapping subproblems, storing their solutions to avoid computing them again."
+  },
+  {
+    "question": "what is memoization",
+    "answer": "Memoization is a specific dynamic programming technique used to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again."
+  },
+  {
+    "question": "what is tabulation in dynamic programming",
+    "answer": "Tabulation is a bottom-up dynamic programming approach where you solve all subproblems and store their results in a table (usually an array), eventually building up to the solution of the main problem."
+  },
+  {
+    "question": "what is a greedy algorithm",
+    "answer": "A greedy algorithm is an approach for solving a problem by selecting the best option available at the moment, without worrying about the future consequences. It makes locally optimal choices in the hope of finding a global optimum."
+  },
+  {
+    "question": "what is backtracking",
+    "answer": "Backtracking is an algorithmic technique for solving recursive problems by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints."
+  },
+  {
+    "question": "what is a database",
+    "answer": "A database is an organized collection of structured information or data, typically stored electronically in a computer system, allowing for easy access, management, and updating."
+  },
+  {
+    "question": "what is a dbms",
+    "answer": "A Database Management System (DBMS) is software that interacts with end users, applications, and the database itself to capture, analyze, and manage data."
+  },
+  {
+    "question": "what is an rdbms",
+    "answer": "A Relational Database Management System (RDBMS) is a type of DBMS that stores data in a row-based table structure connecting related data elements, utilizing SQL for database access."
+  },
+  {
+    "question": "what is a database schema",
+    "answer": "A database schema is the skeleton structure that represents the logical view of the entire database. It defines how the data is organized and how the relations among them are associated."
+  },
+  {
+    "question": "what is a database instance",
+    "answer": "A database instance is the collection of information stored in the database at a specific moment in time. While the schema is static, the instance changes dynamically as data is added or removed."
+  },
+  {
+    "question": "what is a data dictionary",
+    "answer": "A data dictionary, or metadata repository, is a centralized repository of information about data such as meaning, relationships to other data, origin, usage, and format."
+  },
+  {
+    "question": "what is ddl",
+    "answer": "DDL stands for Data Definition Language. It consists of SQL commands like CREATE, ALTER, and DROP, which are used to define or modify the database schema."
+  },
+  {
+    "question": "what is dml",
+    "answer": "DML stands for Data Manipulation Language. It includes SQL commands like SELECT, INSERT, UPDATE, and DELETE, which are used to manipulate data present in the database."
+  },
+  {
+    "question": "what is dcl",
+    "answer": "DCL stands for Data Control Language. It includes SQL commands like GRANT and REVOKE, which are used to control access to data stored in a database."
+  },
+  {
+    "question": "what is tcl",
+    "answer": "TCL stands for Transaction Control Language. It includes commands like COMMIT, ROLLBACK, and SAVEPOINT, which are used to manage transactions in the database."
+  },
+  {
+    "question": "what is a primary key",
+    "answer": "A primary key is a specific choice of a minimal set of attributes (columns) that uniquely identify a record (row) in a database table. It cannot contain NULL values."
+  },
+  {
+    "question": "what is a foreign key",
+    "answer": "A foreign key is a column or a set of columns in one table that references the primary key columns of another table, establishing a link or relationship between the two tables."
+  },
+  {
+    "question": "what is a candidate key",
+    "answer": "A candidate key is a set of one or more fields/columns that can uniquely identify a record in a table. A table can have multiple candidate keys, but only one can be selected as the primary key."
+  },
+  {
+    "question": "what is a super key",
+    "answer": "A super key is a set of one or more columns to uniquely identify rows in a table. A candidate key is simply a super key with no redundant attributes."
+  },
+  {
+    "question": "what is a composite key",
+    "answer": "A composite key is a primary key that consists of two or more attributes that uniquely identify an entity occurrence. It is used when a single attribute cannot uniquely identify a row."
+  },
+  {
+    "question": "what is an entity in dbms",
+    "answer": "An entity is a real-world object that exists independently, such as a person, place, or concept, about which data can be stored in a database."
+  },
+  {
+    "question": "what is an attribute in dbms",
+    "answer": "An attribute describes the property or characteristic of an entity. For example, if 'Student' is an entity, then 'Student_ID' and 'Name' are its attributes."
+  },
+  {
+    "question": "what is a relationship in dbms",
+    "answer": "A relationship is an association among several entities. For example, a 'Teacher' entity and a 'Student' entity might have a 'Teaches' relationship."
+  },
+  {
+    "question": "what is an er model",
+    "answer": "An Entity-Relationship (ER) model is a high-level conceptual data model diagram that shows the relationships of entity sets stored in a database."
+  },
+  {
+    "question": "what is cardinality in dbms",
+    "answer": "Cardinality defines the numerical attributes of the relationship between two entities. Common cardinalities include one-to-one, one-to-many, and many-to-many."
+  },
+  {
+    "question": "what is database normalization",
+    "answer": "Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity by dividing large tables into smaller, related ones."
+  },
+  {
+    "question": "what is 1nf",
+    "answer": "First Normal Form (1NF) states that a database table must not contain repeating groups or multi-valued attributes; every cell must hold a single, atomic value."
+  },
+  {
+    "question": "what is 2nf",
+    "answer": "Second Normal Form (2NF) requires a table to be in 1NF and ensuring that all non-key attributes are fully functionally dependent on the entire primary key, eliminating partial dependencies."
+  },
+  {
+    "question": "what is 3nf",
+    "answer": "Third Normal Form (3NF) requires a table to be in 2NF and ensuring that all non-key attributes are not dependent on any other non-key attributes, eliminating transitive dependencies."
+  },
+  {
+    "question": "what is bcnf",
+    "answer": "Boyce-Codd Normal Form (BCNF) is a stricter version of 3NF. It states that for every non-trivial functional dependency X -> Y, X must be a super key."
+  },
+  {
+    "question": "what is functional dependency",
+    "answer": "Functional dependency is a relationship that exists when one attribute uniquely determines another attribute. If A determines B, it is written as A -> B."
+  },
+  {
+    "question": "what is denormalization",
+    "answer": "Denormalization is the process of intentionally adding redundant data to one or more tables. This is done to improve the read performance of a database at the expense of write performance."
+  },
+  {
+    "question": "what is a join in sql",
+    "answer": "A JOIN clause is used to combine rows from two or more tables based on a related column between them, allowing users to query data across multiple tables simultaneously."
+  },
+  {
+    "question": "what is an inner join",
+    "answer": "An Inner Join selects records that have matching values in both tables. If there is no match, the record is excluded from the result set."
+  },
+  {
+    "question": "what is an outer join",
+    "answer": "An Outer Join returns all rows from one table and the matching rows from a second table. If there is no match, the missing side will contain NULL values."
+  },
+  {
+    "question": "what is a left join",
+    "answer": "A Left Join (or Left Outer Join) returns all records from the left table, and the matched records from the right table. The result is NULL on the right side when there is no match."
+  },
+  {
+    "question": "what is a right join",
+    "answer": "A Right Join (or Right Outer Join) returns all records from the right table, and the matched records from the left table. The result is NULL on the left side when there is no match."
+  },
+  {
+    "question": "what is a cross join",
+    "answer": "A Cross Join produces the Cartesian product of two tables. It pairs every row of the first table with every row of the second table."
+  },
+  {
+    "question": "what is a self join",
+    "answer": "A Self Join is a regular join, but the table is joined with itself. It is commonly used to query hierarchical data within the same table."
+  },
+  {
+    "question": "what is a view in sql",
+    "answer": "A view is a virtual table based on the result-set of an SQL statement. It contains rows and columns just like a real table, but the data is dynamically fetched when the view is queried."
+  },
+  {
+    "question": "what is a database transaction",
+    "answer": "A transaction is a single logical unit of work that accesses and possibly modifies the contents of a database. It must be completed entirely or aborted entirely to maintain data integrity."
+  },
+  {
+    "question": "what are acid properties",
+    "answer": "ACID properties (Atomicity, Consistency, Isolation, Durability) are a set of principles that guarantee database transactions are processed reliably and safely."
+  },
+  {
+    "question": "what is atomicity",
+    "answer": "Atomicity, the 'A' in ACID, ensures that a transaction is treated as a single, indivisible logical unit. Either all its operations are executed successfully, or none of them are."
+  },
+  {
+    "question": "what is consistency in acid",
+    "answer": "Consistency, the 'C' in ACID, ensures that a transaction can only bring the database from one valid state to another, maintaining all predefined rules, constraints, and triggers."
+  },
+  {
+    "question": "what is isolation in acid",
+    "answer": "Isolation, the 'I' in ACID, ensures that concurrent execution of transactions leaves the database in the same state that would have been obtained if the transactions were executed sequentially."
+  },
+  {
+    "question": "what is durability in acid",
+    "answer": "Durability, the 'D' in ACID, guarantees that once a transaction has been committed, it will remain committed even in the case of a system failure, like a power outage or crash."
+  },
+  {
+    "question": "what is concurrency control",
+    "answer": "Concurrency control is the procedure in a DBMS that ensures that simultaneous database operations do not destroy data integrity or result in conflicting updates."
+  },
+  {
+    "question": "what is a database deadlock",
+    "answer": "A deadlock occurs when two or more transactions indefinitely wait for each other to release locks on resources, causing the whole system to freeze."
+  },
+  {
+    "question": "what is a shared lock",
+    "answer": "A shared lock (or read lock) allows a transaction to read a data item but prevents it from being modified. Multiple transactions can hold shared locks on the same data item simultaneously."
+  },
+  {
+    "question": "what is an exclusive lock",
+    "answer": "An exclusive lock (or write lock) grants a transaction the exclusive right to modify a data item. No other transaction can read or write to that item while the exclusive lock is held."
+  },
+  {
+    "question": "what is database indexing",
+    "answer": "Indexing is a data structure technique used to quickly locate and access data in a database. It works like the index of a book, drastically speeding up data retrieval operations."
+  },
+  {
+    "question": "what is a database trigger",
+    "answer": "A trigger is a special type of stored procedure that automatically executes or 'fires' when a specific event (like an INSERT, UPDATE, or DELETE) occurs in the database."
+  },
+  {
+    "question": "what is a stored procedure",
+    "answer": "A stored procedure is a prepared SQL code that you can save and reuse over and over again. It allows for modular programming and can improve database performance."
+  },
+  {
+    "question": "what is olap",
+    "answer": "OLAP (Online Analytical Processing) is a category of software that allows users to analyze information from multiple database systems at the same time, optimized for complex queries and reporting."
+  },
+  {
+    "question": "what is oltp",
+    "answer": "OLTP (Online Transaction Processing) refers to a class of systems that facilitate and manage transaction-oriented applications, optimized for fast, day-to-day insert, update, and delete operations."
+  },
+  {
+    "question": "what is object oriented programming",
+    "answer": "Object-Oriented Programming (OOP) is a programming paradigm based on the concept of 'objects', which contain data in the form of fields (attributes) and code in the form of procedures (methods)."
+  },
+  {
+    "question": "what are the four pillars of oop",
+    "answer": "The four fundamental pillars of Object-Oriented Programming are Encapsulation, Abstraction, Inheritance, and Polymorphism."
+  },
+  {
+    "question": "what is a class",
+    "answer": "A class is a blueprint or template in OOP that defines the variables and the methods common to all objects of a certain kind. It is a logical entity."
+  },
+  {
+    "question": "what is an object in oop",
+    "answer": "An object is an instance of a class. It is a physical entity that occupies memory and has state, behavior, and identity defined by its class."
+  },
+  {
+    "question": "what is encapsulation",
+    "answer": "Encapsulation is the mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit, like a class, to restrict direct access and prevent accidental modification."
+  },
+  {
+    "question": "what is abstraction",
+    "answer": "Abstraction is the process of hiding the complex implementation details from the user and only providing the essential features of an object. It focuses on what an object does rather than how it does it."
+  },
+  {
+    "question": "what is inheritance",
+    "answer": "Inheritance is a mechanism where a new class (subclass or derived class) inherits the properties and behaviors (methods) of an existing class (superclass or base class), promoting code reusability."
+  },
+  {
+    "question": "what is polymorphism",
+    "answer": "Polymorphism comes from the Greek words for 'many forms'. In OOP, it allows objects of different classes to be treated as objects of a common superclass, allowing one interface to be used for a general class of actions."
+  },
+  {
+    "question": "what is a constructor",
+    "answer": "A constructor is a special type of method that is automatically called when an object of a class is created. It is used to initialize the state of the object."
+  },
+  {
+    "question": "what is a destructor",
+    "answer": "A destructor is a special method called automatically when an object is destroyed or goes out of scope. It is used to free up resources and memory allocated to the object."
+  },
+  {
+    "question": "what is an access modifier",
+    "answer": "Access modifiers are keywords in OOP that set the accessibility or visibility of classes, methods, and other members. Common types are public, private, and protected."
+  },
+  {
+    "question": "what is the public access modifier",
+    "answer": "The public access modifier means that the class, variable, or method is accessible from anywhere in the program, without any restrictions."
+  },
+  {
+    "question": "what is the private access modifier",
+    "answer": "The private access modifier restricts access so that the variable or method can only be accessed within the exact same class where it is declared."
+  },
+  {
+    "question": "what is the protected access modifier",
+    "answer": "The protected access modifier allows variables or methods to be accessed within the same class and by any subclasses (child classes) that inherit from it."
+  },
+  {
+    "question": "what is method overloading",
+    "answer": "Method overloading is a feature that allows a class to have more than one method with the same name, as long as their parameter lists (number or type of arguments) are different."
+  },
+  {
+    "question": "what is method overriding",
+    "answer": "Method overriding occurs when a subclass provides a specific implementation for a method that is already defined in its parent class. The method signature must be exactly the same."
+  },
+  {
+    "question": "what is compile time polymorphism",
+    "answer": "Compile-time polymorphism, also known as static binding or early binding, is achieved through method overloading or operator overloading, where the method to be executed is determined at compile time."
+  },
+  {
+    "question": "what is runtime polymorphism",
+    "answer": "Runtime polymorphism, also known as dynamic binding or late binding, is achieved through method overriding, where the method to be called is determined at runtime based on the actual object type."
+  },
+  {
+    "question": "what is an abstract class",
+    "answer": "An abstract class is a restricted class that cannot be instantiated (you cannot create objects of it). It is used to provide a base for subclasses to inherit from and must contain at least one abstract method."
+  },
+  {
+    "question": "what is an abstract method",
+    "answer": "An abstract method is a method that is declared without an implementation (no body). The subclass that inherits it must provide the specific implementation for this method."
+  },
+  {
+    "question": "what is an interface",
+    "answer": "An interface is a completely 'abstract class' that is used to group related methods with empty bodies. It acts as a contract; any class implementing the interface must define all its methods."
+  },
+  {
+    "question": "what is multiple inheritance",
+    "answer": "Multiple inheritance is a feature where a class can inherit properties and behaviors from more than one parent class. Some languages, like C++, support it, while Java avoids it using interfaces."
+  },
+  {
+    "question": "what is the diamond problem",
+    "answer": "The diamond problem is an ambiguity that arises in multiple inheritance when two parent classes inherit from the same grandparent class, and both parents are inherited by a single child class."
+  },
+  {
+    "question": "what is a static method",
+    "answer": "A static method belongs to the class itself rather than any specific object instance. It can be called without creating an object of the class and can only access static data members."
+  },
+  {
+    "question": "what is a static variable",
+    "answer": "A static variable is shared among all objects of a class. Memory is allocated for it only once when the class is loaded, making it useful for tracking properties that apply to the whole class, like a counter."
+  },
+  {
+    "question": "what is the this keyword",
+    "answer": "The 'this' keyword is a reference variable that refers to the current object invoking the method. It is commonly used to distinguish between class attributes and parameters with the same name."
+  },
+  {
+    "question": "what is the super keyword",
+    "answer": "The 'super' keyword is a reference variable used to refer to the immediate parent class object. It is used to invoke parent class methods or access parent class variables."
+  },
+  {
+    "question": "what is garbage collection",
+    "answer": "Garbage collection is an automatic memory management feature where the program periodically frees up memory space by deleting objects that are no longer reachable or being used."
+  },
+  {
+    "question": "what is composition in oop",
+    "answer": "Composition is a strict 'has-a' relationship between two objects where the child object cannot exist without the parent object. If the parent is destroyed, the child is also destroyed."
+  },
+  {
+    "question": "what is aggregation in oop",
+    "answer": "Aggregation is a weak 'has-a' relationship where the child object can exist independently of the parent object. For example, a department has teachers, but a teacher can exist without the department."
+  },
+  {
+    "question": "what is coupling",
+    "answer": "Coupling refers to the degree of direct knowledge that one class has of another. Good system architecture aims for 'loose coupling', meaning classes are highly independent of each other."
+  },
+  {
+    "question": "what is cohesion",
+    "answer": "Cohesion refers to how closely all the routines in a class or module support a central purpose. High cohesion is desirable as it means the class is focused on a single, well-defined task."
+  },
+  {
+    "question": "what are solid principles",
+    "answer": "SOLID is an acronym for five design principles intended to make software designs more understandable, flexible, and maintainable. They are the gold standard for object-oriented design."
+  },
+  {
+    "question": "what is the single responsibility principle",
+    "answer": "The Single Responsibility Principle (SRP) states that a class should have one, and only one, reason to change, meaning it should only have one job or responsibility."
+  },
+  {
+    "question": "what is the open closed principle",
+    "answer": "The Open-Closed Principle (OCP) states that software entities (classes, modules, functions) should be open for extension but closed for modification. You should be able to add new functionality without changing existing code."
+  },
+  {
+    "question": "what is the liskov substitution principle",
+    "answer": "The Liskov Substitution Principle (LSP) states that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application."
+  },
+  {
+    "question": "what is the interface segregation principle",
+    "answer": "The Interface Segregation Principle (ISP) states that no client should be forced to depend on methods it does not use. Large interfaces should be split into smaller, more specific ones."
+  },
+  {
+    "question": "what is the dependency inversion principle",
+    "answer": "The Dependency Inversion Principle (DIP) states that high-level modules should not depend on low-level modules; both should depend on abstractions. Details should depend upon abstractions."
+  },
+  {
+    "question": "what is the final keyword",
+    "answer": "The 'final' keyword restricts the user. A final variable's value cannot be changed, a final method cannot be overridden by subclasses, and a final class cannot be inherited."
+  },
+  {
+    "question": "what is a virtual function",
+    "answer": "A virtual function is a member function defined in a base class that is expected to be overridden in derived classes, allowing for dynamic binding and runtime polymorphism."
+  },
+  {
+    "question": "what is a pure virtual function",
+    "answer": "A pure virtual function is a virtual function in C++ for which we need not write any function definition. It forces subclasses to provide their own implementation, making the base class an abstract class."
+  },
+  {
+    "question": "what is object cloning",
+    "answer": "Object cloning is a way to create an exact copy of an object. For example, in Java, the clone() method of the Object class is used to create a duplicate of an existing object."
+  },
+  {
+    "question": "what is a base class",
+    "answer": "A base class, also known as a superclass or parent class, is the class from which properties and methods are inherited by another class in an inheritance hierarchy."
+  },
+  {
+    "question": "what is a derived class",
+    "answer": "A derived class, also known as a subclass or child class, is a class that inherits properties and behaviors from a base class."
+  },
+  {
+    "question": "what is early binding",
+    "answer": "Early binding (static binding) occurs when the compiler determines the exact method to execute at compile time, typically seen with normal function calls and method overloading."
+  },
+  {
+    "question": "what is late binding",
+    "answer": "Late binding (dynamic binding) occurs when the exact method to be called is determined at runtime based on the actual object type, typically seen with method overriding and virtual functions."
+  },
+  {
+    "question": "what is an inner class",
+    "answer": "An inner class, or nested class, is a class declared entirely within the body of another class or interface. It is used to logically group classes and increase encapsulation."
+  },
+  {
+    "question": "what is an anonymous class",
+    "answer": "An anonymous class is an inner class without a name and for which only a single object is created. It is used to instantiate objects with certain 'one-off' modifications or implementations."
+  },
+  {
+    "question": "what is a singleton class",
+    "answer": "A singleton is a design pattern that restricts the instantiation of a class to one single object. It is useful when exactly one object is needed to coordinate actions across the system."
+  },
+  {
+    "question": "what is message passing",
+    "answer": "Message passing is the process by which an object sends data to another object or asks another object to invoke a method. It is the primary way objects communicate with one another."
+  },
+
+
+  {"question": "what is an operating system", "answer": "An OS is system software that manages computer hardware, software resources, and provides common services for computer programs."},
+  {"question": "what is kernel", "answer": "The kernel is the core component of an operating system that manages CPU, memory, and devices."},
+  {"question": "what is process scheduling", "answer": "Process scheduling is the activity of the process manager that handles the removal of the running process from the CPU and the selection of another process."},
+  {"question": "what is a deadlock", "answer": "A deadlock is a situation where a set of processes are blocked because each process is holding a resource and waiting for another resource acquired by some other process."},
+  {"question": "what is paging", "answer": "Paging is a memory management scheme that eliminates the need for contiguous allocation of physical memory."},
+  {"question": "what is virtual memory", "answer": "Virtual memory is a technique that allows the execution of processes that are not completely in memory."},
+  {"question": "what is thrashing", "answer": "Thrashing is a state where the system spends more time processing page faults than executing instructions."},
+  {"question": "what is a thread", "answer": "A thread is a basic unit of CPU utilization, consisting of a program counter, a stack, and a set of registers."},
+  {"question": "what is context switching", "answer": "Context switching is the process of storing the state of a process so that it can be restored and execution resumed later."},
+  {"question": "what is a semaphore", "answer": "A semaphore is an integer variable used for controlling access to common resources by multiple processes in a concurrent system."},
+
+  {"question": "what is the osi model", "answer": "The OSI model is a conceptual framework that characterizes the communication functions of a telecommunication or computing system into seven layers."},
+  {"question": "what is tcp ip", "answer": "TCP/IP is the suite of communication protocols used to interconnect network devices on the internet."},
+  {"question": "what is an ip address", "answer": "An IP address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication."},
+  {"question": "what is dns", "answer": "DNS (Domain Name System) translates domain names into IP addresses so browsers can load internet resources."},
+  {"question": "what is a subnet mask", "answer": "A subnet mask is a 32-bit number used to distinguish the network component of an IP address from the host component."},
+  {"question": "what is http and https", "answer": "HTTP is the protocol for transmitting web pages. HTTPS is the secure, encrypted version using SSL/TLS."},
+  {"question": "what is packet switching", "answer": "Packet switching is a method of grouping data that is transmitted over a digital network into packets."},
+  {"question": "what is a router", "answer": "A router is a networking device that forwards data packets between computer networks."},
+  {"question": "what is a firewall", "answer": "A firewall is a network security device that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic."},
+  {"question": "what is bandwidth", "answer": "Bandwidth is the maximum rate of data transfer across a given path."},
+
+  {"question": "what is load balancing", "answer": "Load balancing distributes network traffic across multiple servers to ensure high availability."},
+  {"question": "what is a microservice", "answer": "A microservice is an architectural approach where an application is composed of small, independent services."},
+  {"question": "what is caching", "answer": "Caching stores copies of data in temporary storage to improve data retrieval speeds."},
+  {"question": "what is a distributed system", "answer": "A distributed system consists of multiple autonomous computers that communicate through a network to achieve a common goal."},
+  {"question": "what is horizontal scaling", "answer": "Horizontal scaling involves adding more machines to your cluster to handle increased load."},
+  {"question": "what is vertical scaling", "answer": "Vertical scaling involves increasing the power (RAM/CPU) of an existing machine."},
+  {"question": "what is a reverse proxy", "answer": "A reverse proxy sits in front of backend servers and forwards client requests, providing security and load balancing."},
+  {"question": "what is idempotency", "answer": "Idempotency means that making the same request multiple times has the same effect as making it once."},
+  {"question": "what is latency", "answer": "Latency is the time it takes for a data packet to travel from source to destination."},
+  {"question": "what is throughput", "answer": "Throughput is the amount of data moved successfully from one location to another in a given time period."},
+
+  {"question": "what is agile", "answer": "Agile is an iterative software development methodology focusing on continuous feedback and small releases."},
+  {"question": "what is scrum", "answer": "Scrum is a subset of Agile that uses fixed-length iterations called sprints to manage complex work."},
+  {"question": "what is a sprint", "answer": "A sprint is a time-boxed period (usually 2 weeks) where a development team works to complete a specific set of tasks."},
+  {"question": "what is git", "answer": "Git is a distributed version control system for tracking changes in source code."},
+  {"question": "what is continuous integration", "answer": "CI is the practice of merging all developers' working copies to a shared mainline several times a day."},
+  {"question": "what is technical debt", "answer": "Technical debt reflects the implied cost of additional rework caused by choosing an easy solution now instead of a better approach."},
+  {"question": "what is unit testing", "answer": "Unit testing involves testing the smallest testable parts of an application, called units, individually."},
+  {"question": "what is a tech spec", "answer": "A tech spec is a document detailing the requirements, architecture, and implementation details of a project."},
+  {"question": "what is pair programming", "answer": "Pair programming is a technique where two developers work on one workstation, one coding and one reviewing."},
+  {"question": "what is refactoring", "answer": "Refactoring is improving the internal structure of code without changing its external behavior."},
+
+  {"question": "what is rag", "answer": "Retrieval-Augmented Generation (RAG) grounds an LLM in external data to reduce hallucinations."},
+  {"question": "what is a vector database", "answer": "A vector database stores high-dimensional embeddings for fast semantic searching."},
+  {"question": "what is prompt engineering", "answer": "Prompt engineering is the art of crafting specific inputs to get the most accurate responses from AI models."},
+  {"question": "what is fine tuning", "answer": "Fine-tuning takes a pre-trained model and trains it further on a specific dataset to specialize its knowledge."},
+  {"question": "what is a hallucination", "answer": "An AI hallucination is when a model generates false or nonsensical information confidently."},
+  {"question": "what is agentic ai", "answer": "Agentic AI systems can autonomously plan and use external tools to complete multi-step tasks."},
+  {"question": "what is langchain", "answer": "LangChain is a framework for developing applications powered by language models by chaining different components together."},
+  {"question": "what is an embedding", "answer": "An embedding is a vector representation of data that captures semantic meaning."},
+  {"question": "what is backpropagation", "answer": "Backpropagation is the primary algorithm used to train neural networks by calculating the gradient of the loss function."},
+  {"question": "what is a neural network", "answer": "A neural network is a series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the human brain."},
+
+  {"question": "what is a game engine", "answer": "A game engine provides the tools and framework for building 2D or 3D games."},
+  {"question": "what is a navmesh", "answer": "A NavMesh defines the traversable surfaces in a game world for AI pathfinding."},
+  {"question": "what is raycasting", "answer": "Raycasting is shooting an invisible line to detect collisions in 3D space."},
+  {"question": "what is an npc", "answer": "An NPC (Non-Player Character) is a character managed by the game's AI."},
+  {"question": "what is procedural generation", "answer": "Procedural generation creates game content algorithmically rather than manually."},
+  {"question": "what is a hit box", "answer": "A hitbox is an invisible volume used for collision detection between entities."},
+  {"question": "what is a star algorithm", "answer": "A* is an algorithm used for efficient pathfinding in games."},
+  {"question": "what is a game loop", "answer": "The game loop updates input, physics, and rendering continuously while the game runs."},
+  {"question": "what is rigid body physics", "answer": "Rigid body physics simulates the movement and collisions of solid, non-deformable objects."},
+  {"question": "what is lod", "answer": "Level of Detail (LOD) reduces the complexity of 3D models at a distance to improve performance."},
+
+  {"question": "what is a rest api", "answer": "A REST API is an architectural style using HTTP requests to access data."},
+  {"question": "what is graphql", "answer": "GraphQL is a query language for APIs that allows clients to request exactly the data they need."},
+  {"question": "what is json", "answer": "JSON is a lightweight, human-readable data format used for API communication."},
+  {"question": "what is frontend", "answer": "The frontend is the visual interface of a website that the user interacts with."},
+  {"question": "what is backend", "answer": "The backend is the server-side logic and database that powers an application."},
+  {"question": "what is a webhook", "answer": "A webhook is an automated message sent from apps when something happens."},
+  {"question": "what is an api gateway", "answer": "An API gateway acts as a single entry point for all client requests in a microservices architecture."},
+  {"question": "what is cors", "answer": "CORS (Cross-Origin Resource Sharing) is a browser security mechanism that restricts web pages from making requests to a different domain."},
+  {"question": "what is a websocket", "answer": "WebSockets allow for full-duplex communication channels over a single TCP connection."},
+  {"question": "what is a static site", "answer": "A static site consists of fixed files that are delivered to the user exactly as stored."}
+
+]
+

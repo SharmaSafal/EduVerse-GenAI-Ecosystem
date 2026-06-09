@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EduVerse | Smart Flashcards</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+        
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: transparent; 
+            padding: 20px; 
+            margin: 0;
+            color: #f8fafc;
+            text-align: center;
+            height: calc(100vh - 40px);
+            overflow-y: auto;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
+
+        /* Glassmorphism Upload Container */
+        .upload-container { 
+            background: rgba(15, 23, 42, 0.6); 
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 40px; 
+            border-radius: 20px; 
+            max-width: 550px; 
+            margin: 0 auto 40px auto; 
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        .upload-container h1 {
+            margin: 0 0 10px 0;
+            font-size: 28px;
+            font-weight: 800;
+            background: linear-gradient(to right, #10b981, #3b82f6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .upload-container p { color: #94a3b8; margin-bottom: 25px; font-size: 15px; }
+
+        input[type=file] { 
+            display: block; 
+            width: 100%; 
+            padding: 12px; 
+            margin-bottom: 20px; 
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px dashed rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            color: #cbd5e1;
+            box-sizing: border-box;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        
+        input[type=file]:hover { border-color: #10b981; background: rgba(16, 185, 129, 0.05); }
+
+        button[type="submit"] { 
+            background: linear-gradient(135deg, #10b981, #059669); 
+            color: white; 
+            border: none; 
+            padding: 14px 30px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 12px; 
+            cursor: pointer; 
+            transition: all 0.3s ease;
+            width: 100%;
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+        }
+
+        button[type="submit"]:hover { 
+            transform: translateY(-2px); 
+            box-shadow: 0 8px 25px rgba(16, 185, 129, 0.5); 
+        }
+
+        .error { 
+            color: #ef4444; 
+            font-size: 14px; 
+            margin-top: 15px; 
+            background: rgba(239, 68, 68, 0.1); 
+            padding: 10px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(239, 68, 68, 0.2); 
+        }
+        
+        /* 3D Flashcard Grid */
+        .deck-title { color: #e2e8f0; font-size: 22px; margin-bottom: 25px; font-weight: 600; }
+        .card-grid { display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; padding-bottom: 40px; }
+        
+        .flip-card { 
+            background-color: transparent; 
+            width: 320px; 
+            height: 220px; 
+            perspective: 1000px; 
+            cursor: pointer; 
+            animation: slideUp 0.5s ease-out backwards; 
+        }
+        
+        /* Safely stagger the first few cards using purely CSS instead of Jinja math */
+        .flip-card:nth-child(1) { animation-delay: 0.1s; }
+        .flip-card:nth-child(2) { animation-delay: 0.2s; }
+        .flip-card:nth-child(3) { animation-delay: 0.3s; }
+        .flip-card:nth-child(4) { animation-delay: 0.4s; }
+
+        .flip-card-inner { position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1); transform-style: preserve-3d; }
+        .flip-card.flipped .flip-card-inner { transform: rotateY(180deg); }
+        
+        .flip-card-front, .flip-card-back { 
+            position: absolute; width: 100%; height: 100%; 
+            -webkit-backface-visibility: hidden; backface-visibility: hidden; 
+            border-radius: 16px; 
+            display: flex; align-items: center; justify-content: center; 
+            padding: 25px; box-sizing: border-box;
+            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .flip-card-front { 
+            background: rgba(30, 41, 59, 0.8); 
+            backdrop-filter: blur(10px);
+            color: #10b981; 
+            font-size: 22px; 
+            font-weight: 700; 
+        }
+        
+        .flip-card-back { 
+            background: linear-gradient(135deg, #10b981, #059669); 
+            color: white; 
+            transform: rotateY(180deg); 
+            font-size: 15px; 
+            line-height: 1.6;
+        }
+
+        /* --- THE LOADING OVERLAY --- */
+        #loading-overlay {
+            display: none; /* Hidden by default */
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(2, 6, 23, 0.8); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+            z-index: 9999; flex-direction: column; justify-content: center; align-items: center;
+        }
+
+        .spinner {
+            width: 60px; height: 60px;
+            border: 5px solid rgba(16, 185, 129, 0.2);
+            border-top-color: #10b981;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+
+        #loading-overlay h2 { color: #f8fafc; font-size: 20px; margin: 0 0 10px 0; }
+        #loading-overlay p { color: #94a3b8; font-size: 14px; margin: 0; }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes fadeIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+    </style>
+</head>
+<body>
+
+    <div id="loading-overlay">
+        <div class="spinner"></div>
+        <h2>Analyzing Document</h2>
+        <p>Extracting key concepts and building neural flashcards...</p>
+    </div>
+
+    <div class="upload-container">
+        <h1>Smart Flashcards</h1>
+        <p>Upload a chapter PDF. Our AI will automatically extract core concepts and generate your study deck.</p>
+        
+        <form method="post" enctype="multipart/form-data" onsubmit="showLoader()">
+            <input type="file" name="file" accept=".pdf" required>
+            <button type="submit">Generate Neural Deck</button>
+        </form>
+        
+        {% if error %}
+            <div class="error">System Error: {{ error }}</div>
+        {% endif %}
+    </div>
+
+    {% if flashcards %}
+        <div class="deck-title">Your Study Deck (Click card to reveal)</div>
+        <div class="card-grid">
+            {% for card in flashcards %}
+                <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            {{ card.term }}
+                        </div>
+                        <div class="flip-card-back">
+                            {{ card.definition }}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    <script>
+        function showLoader() {
+            document.getElementById('loading-overlay').style.display = 'flex';
+        }
+    </script>
+
+</body>
+</html>
